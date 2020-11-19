@@ -51,6 +51,10 @@ label {
     color: rgb(151, 125, 54);
 } 
 
+.dark-mode-img {
+    filter: grayscale(50%);
+}
+
 .switch {
     position: relative;
     display: inline-block;

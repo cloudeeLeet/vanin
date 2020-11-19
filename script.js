@@ -8,5 +8,6 @@ function addListenerToAddTask(){
         $('h1').toggleClass('dark-mode');
         $('a').toggleClass('dark-mode-a');
         $('div#dark').toggleClass('dark-mode-bg');
+        $('img').toggleClass('dark-mode-img');
     });
  }
