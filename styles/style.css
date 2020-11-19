@@ -26,6 +26,89 @@ p {
     text-shadow: 1px 1px 2px black;
 }
 
+#black-bar {
+    background-color: rgba(0, 0, 0, 0.342);
+    color: #fff;
+    padding: 5px 0;
+    font-size: 18px;
+
+    text-align: center;
+}
+
+label {
+    transform: scale(0.55);
+}
+
+.dark-mode {
+    color: rgb(214, 208, 208);
+}
+
+.dark-mode-bg {
+    background-image: url('../img/bg-black.png') !important;
+}
+
+.dark-mode-a {
+    color: rgb(151, 125, 54);
+} 
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+
+  .switch input {display:none;}
+  
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
 .background {
     position: absolute;
     background-image: url('../img/bg.png');
@@ -34,7 +117,7 @@ p {
     background-size: cover;
     width: 100%;
     
-    padding-top: 30px;
+
     padding-bottom: 130px;
 }
 
