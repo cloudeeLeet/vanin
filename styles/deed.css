@@ -210,3 +210,7 @@ label {
   .slider.round:before {
     border-radius: 50%;
   }
+
+  .dark-mode-btn {
+    background-color: rgba(163, 90, 6, 0.719) !important;
+}

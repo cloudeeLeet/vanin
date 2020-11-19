@@ -55,6 +55,14 @@ label {
     filter: grayscale(50%);
 }
 
+.dark-mode-btn {
+    background-color: rgba(163, 90, 6, 0.719) !important;
+}
+
+.dark-mode-btn-pdv {
+    background-color:rgba(4, 34, 170, 0.719) !important;
+}
+
 .switch {
     position: relative;
     display: inline-block;
@@ -314,6 +322,8 @@ img {
     font-weight: 400;
     text-align: center;
     margin-bottom: 30px;
+
+    font-size: 20px;
 }
 
 li {
