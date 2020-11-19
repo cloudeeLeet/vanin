@@ -4,8 +4,8 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden; 
 }
 
 h1 { 
@@ -30,6 +30,7 @@ p {
     position: absolute;
     background-image: url('../img/bg.png');
     background-repeat: repeat;
+    background-position: center;
     background-size: cover;
     width: 100%;
     
@@ -207,7 +208,6 @@ img {
     outline: none;
     border: none;
     padding: 10px 40px;
-    margin-bottom: 40px;
     transition: ease-out .25s;
     cursor: pointer;
     -webkit-transform: translateX(-50%);
@@ -217,10 +217,10 @@ img {
 }
 
     .btn:hover {
-        background-color: rgba(255, 136, 0, 0.80);
+        background-color:rgba(255, 136, 0, 0.80);
         box-shadow: 0 0 10px rgba(233, 140, 34, 0.76);
     }
-
+    
 #p-nagr-intro {
     font-weight: 400;
     text-align: center;
