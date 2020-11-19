@@ -50,6 +50,8 @@ p {
 
 a {
     color: rgb(255, 187, 0);
+
+    transition: ease-out .25s;
  }
 
      a:visited {
@@ -57,7 +59,7 @@ a {
       }
 
         a:hover {
-            color: rgb(170, 131, 23);
+            color: rgb(253, 221, 131)
         }
 
 img {
