@@ -4,36 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="shortcut icon" href="img/111.png" type="image/png">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
     <script src="jquery-3.4.1.min.js"></script>
     <script src="script.js"></script>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Награды</title>
 </head>
 <body>
-    <div id="dark" class="background">
+<div id="dark" class="background">
+    
         <div id="black-bar">Темная тема<br>
             <label class="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
         </div>
-    <div class="fixed-container">
-        <br>
-        <p id="p-nagr-intro">
-            Награды Ванина (Аввакумова) Ивана Ивановича.
-        </p>
-        <div class="flex">
-            <img src="img/nagr-list.jpg" class="nagr" alt="nagr">
-            <img src="img/nagr-spisok.jpg" class="nagr" alt="nagr">
-            <img src="img/Orden_Slavy_3st.png" class="nagr-orden" alt="nagr">
-            <img src="img/ukaz.jpg" class="nagr" alt="nagr">
-            <img src="img/Medal_Za_pobedu_nad_Germaniej.png" class="nagr-medal" alt="nagr">
-            <img src="img/improved_photo.jpg" class="nagr-rest" alt="nagr">
+
+    <main class="main">
+        <div class="fixed-container">
+            <br>
+            <h1 class="heading-awards">
+                Награды Ванина (Аввакумова) Ивана Ивановича.
+            </h1>
+            <div class="flex">
+                <img src="img/nagr-list.jpg" class="nagr" alt="Наградной лист">
+                <img src="img/nagr-spisok.jpg" class="nagr" alt="Наградной список">
+                <img src="img/Orden_Slavy_3st.png" class="nagr-orden" alt="Орден славы 3 степени">
+                <img src="img/ukaz.jpg" class="nagr" alt="Указ">
+                <img src="img/Medal_Za_pobedu_nad_Germaniej.png" class="nagr-medal" alt="Медаль">
+                <img src="img/improved_photo.jpg" class="nagr-rest nagr" alt="Фото / нейросеть">
+            </div>
+            <a href="deed.html"><button id="btn-" class="btn-deed">Подвиг</button></a>
+            <a href="index.html"><button id="btn--" class="btn-documents">Вернуться назад</button></a>
         </div>
-        <a href="deed.html"><button id="btn-" class="btn-deed">Подвиг</button></a>
-        <a href="index.html"><button id="btn--" class="btn_">Вернуться назад</button></a>
-    </div>
+    </main>
 </div>
 </body>
 </html>
